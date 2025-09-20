@@ -18,7 +18,7 @@ public class DataDrivenStudentFormTests {
 public WebDriver driver;
 @BeforeMethod
 public void setUp() {
-	WebDriverManager.chromedriver().setup();
+	
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
